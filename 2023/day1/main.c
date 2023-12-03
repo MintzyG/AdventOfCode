@@ -10,6 +10,7 @@ int main() {
     exit(1);
   }
 
+  char** text = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"}; 
   int answer = 0;
   size_t buf_size = 64, counter = 0;
   char* line;
