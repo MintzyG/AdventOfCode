@@ -28,7 +28,7 @@ int main() {
           break;
         } else {
           game += 1;
-          if (game[0] == '\n') { answer += id; /* printf("valid game\n") */; next = 1; break; }
+          if (game[0] == '\n') { answer += id; next = 1; break; }
         }
       if (next == 1) { next = 0; break;}
 
